@@ -15,8 +15,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-@layer components {
+ 
+ @layer components {
   .btn {
     @apply font-bold py-2 px-4 m-2 rounded;
   }
@@ -34,24 +34,25 @@ code {
 
   .xl {
     @apply px-16;
-  }
+  } 
 
-  /*button colors: default, primary, info, success, warning, danger, dark */
-  .default {
+}
+/*button colors: default, primary, info, success, warning, danger, dark */
+/* .default {
     @apply bg-gray-100 text-gray-800;
   }
   .default:hover {
     @apply bg-gray-200 text-gray-800;
-  }
+  } */
 
-  /* .primary {
+/* .primary {
     @apply bg-bleed-blue text-white;
   }
   .primary:hover {
     @apply bg-blue-600 text-white;
   } */
 
-  .success {
+/* .success {
     @apply bg-blue-900 text-white;
   }
   .success:hover {
@@ -92,4 +93,4 @@ code {
   .disabled:hover {
     @apply opacity-50 cursor-not-allowed;
   }
-}
+} */
