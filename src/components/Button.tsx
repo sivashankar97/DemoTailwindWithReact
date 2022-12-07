@@ -8,7 +8,7 @@ interface Props {
   onClick: () => void;
   variant?: string, // default, primary, info, success, warning, danger, dark
   size?: string, // sm, md, lg
-  disabled?: boolean;
+  primary?: boolean;
 }
 
 // button component, consuming props
@@ -17,14 +17,13 @@ const Button: React.FC<Props> = ({
   onClick,
   variant = 'default',
   size = 'md',
-  disabled,
+  primary,
   ...args
 }) => {
   return (
     <button
-      className={`btn ${variant} ${size}` + (disabled ? ' disabled' : '')}
+      className={`btn ${variant} ${size}` + (primary ? ' bg-primary' : '')}
       onClick={onClick}
-      disabled={disabled}
       {...args}
     >
       {children}
