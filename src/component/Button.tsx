@@ -2,6 +2,7 @@
 import React from 'react';
 
 // interface to declare all our prop types
+
 interface Props {
   children: React.ReactNode;
   onClick: () => void;
@@ -17,14 +18,14 @@ const Button: React.FC<Props> = ({
   variant = 'default',
   size = 'md',
   disabled,
-  ...rest
+  ...args
 }) => {
   return (
     <button
       className={`btn ${variant} ${size}` + (disabled ? ' disabled' : '')}
       onClick={onClick}
       disabled={disabled}
-      {...rest}
+      {...args}
     >
       {children}
     </button>
