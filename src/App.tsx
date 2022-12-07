@@ -30,7 +30,7 @@ function App() {
           Learn More
         </a>
     <a
-  className="inline-flex items-center rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+  className="inline-flex items-center bg-secondary rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
   href="/download"
 >
   <span className="text-sm font-medium"> Download </span>
@@ -52,7 +52,7 @@ function App() {
 </a>
 
 <a
-  className="inline-flex items-center rounded border border-indigo-600 px-8 py-3 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
+  className="inline-flex items-center rounded border border-indigo-600 px-8 py-3 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500 bg-primary"
   href="/download"
 >
   <span className="text-sm font-medium"> Download </span>
@@ -100,7 +100,7 @@ function App() {
 
       <Button 
       onClick={()=> alert('Button 1 is clicked !')}
-      variant="success"
+      variant="bg-optional"
       size="sm"
       > Success </Button>
 
