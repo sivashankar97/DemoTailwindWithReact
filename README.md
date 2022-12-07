@@ -58,4 +58,12 @@ The commit type can include the following:
     ci – continuous integration related
     build – changes that affect the build system or external dependencies
     revert – reverts a previous commit
-g
+
+
+"feat: add ...."
+"feat: remove ...."
+"feat: delete ..."
+"style: move ..."
+"style: increase font sie of ...."
+"style: reduce padding ...."
+"fix: replace incorrect config ..."
